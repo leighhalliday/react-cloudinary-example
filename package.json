@@ -8,8 +8,11 @@
     "start": "next start"
   },
   "dependencies": {
+    "cloudinary": "^1.23.0",
+    "cloudinary-react": "^1.6.7",
     "next": "9.5.5",
     "react": "16.14.0",
-    "react-dom": "16.14.0"
+    "react-dom": "16.14.0",
+    "react-dropzone": "^11.2.0"
   }
 }
