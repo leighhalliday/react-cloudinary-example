@@ -28,6 +28,10 @@ formData.append("api_key", process.env.NEXT_PUBLIC_CLOUDINARY_KEY);
 
 https://cloudinary.com/documentation/upload_images#unsigned_upload
 
+```js
+const url = `https://api.cloudinary.com/v1_1/${process.env.NEXT_PUBLIC_CLOUDINARY_CLOUD_NAME}/upload`;
+```
+
 ## Displaying Images
 
 https://github.com/cloudinary/cloudinary-react
